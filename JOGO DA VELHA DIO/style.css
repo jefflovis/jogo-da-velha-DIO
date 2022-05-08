@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+@font-face {
+    font-family:mortal;
+    src: url(fonts/MKX\ Title.ttf);
+}
+
+h1 {
+    margin: 3px;
+    color: #fff;
+    font-family: mortal;
+    font-size: 48px;
+    letter-spacing: 1px;
+
+}
+
+.superior {
+   
+   width: 1323px;
+   height: 516px;
+}
+
+.imagem-topo {
+    width: 1323px;
+    height: 516px;
+}
+
+.tabuleiro {
+    width: 1323px;
+    margin-top: 62px;
+    background-image: url(assets/dehrr3o-d49a6a43-baba-4036-8acb-5a2ee34bf97a.jpg);
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: black;
+    display: inline-block;
+    padding: 28px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #000;
+    font-family: mortal;
+}
+
+.jogador, .vencedor {
+    width: 1323px;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #fff;
+    font-family: mortal;
+}
+
+.botao {
+    width: 1323px;
+    font-family: mortal;
+}
+
+button {
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+    background: rgb(243, 0, 0);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: mortal;
+    letter-spacing: 1px;
+}
+
+.controle {
+    background-color: #000;
+    color: #000;
+}
+
+footer {
+    width: 1323px;
+    height: 40px;
+    margin-top: 10px;
+}

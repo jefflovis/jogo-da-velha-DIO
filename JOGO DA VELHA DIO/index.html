@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>
+        Jogo da velha
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="superior">
+
+<div>
+    <img class="imagem-topo" src="assets/free-mortal-kombat-wallpaper-24102-24764-hd-wallpapers.jpg">
+</div>
+        
+<div>
+    <h1>
+        Jogo da Velha
+    </h1>
+</div>    
+
+</div>
+
+<div class="tabuleiro">
+
+<div>
+    <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="2" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="3" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+<div>
+    <div id="4" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="5" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="6" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+<div>
+    <div id="7" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="8" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+    <div id="9" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+</div>
+
+</div>
+
+<div class="jogador">
+    <label>
+        Jogador:
+    </label>
+    <label id="jogador-selecionado">
+
+    </label>
+</div>
+
+<div class="vencedor">
+    <label>
+        Vencedor:
+    </label>
+    <label id="vencedor-selecionado">
+
+    </label>
+</div>
+
+<div class="botao">
+    <button onclick="reiniciar()">
+        Reiniciar
+    </button>
+</div>
+
+<footer>
+
+    <audio class="controle" class="superior" autoplay controls loop src="assets/Y2mate.mx - Mortal Kombat Music Video (Theme's from _Mortal Kombat_) Soundtrack (1995) (128 kbps).mp3">
+        <P>Seu Browser não tem suporte a tag audio</P>
+    </audio>
+
+</footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
